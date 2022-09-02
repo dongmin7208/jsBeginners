@@ -43,14 +43,16 @@ function handleWindowMenu() {
 }
 
 function handlePtagClick() {
-    const currentColor = ptag.style.color;
-    let newColor;
-    if (currentColor === "blue") {
-        newColor = "tomato";
-    } else {
-        newColor = "blue";
-    }
-    ptag.style.color = newColor;
+    ptag.className = "active"
+    console.log(ptag.className = "active");
+    // const currentColor = ptag.style.color;
+    // let newColor;
+    // if (currentColor === "blue") {
+    //     newColor = "tomato";
+    // } else {
+    //     newColor = "blue";
+    // }
+    // ptag.style.color = newColor;
 }
 
 ptag.addEventListener("click", handlePtagClick);
