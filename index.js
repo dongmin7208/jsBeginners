@@ -1,6 +1,6 @@
 // const h1 = document.querySelector("div.hello:first-child h1");
 const h1 = document.querySelector("div.hello:first-child h1");
-const ptag = document.querySelector("p");
+const ptag = document.querySelector("div.p");
 const colors = ["#1abc9c", "#3498db", "#9b59b6", "#f39c12", "#e74c3c"];
 
 console.log(h1)
@@ -43,8 +43,12 @@ function handleWindowMenu() {
 }
 
 function handlePtagClick() {
-    ptag.className = "active"
-    console.log(ptag.className = "active");
+    const clickedClass = "clicked"
+    if (ptag.className === clickedClass) {
+        ptag.className = "";
+    } else {
+        ptag.className = clickedClass;
+    }
     // const currentColor = ptag.style.color;
     // let newColor;
     // if (currentColor === "blue") {

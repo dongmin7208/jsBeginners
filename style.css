@@ -4,6 +4,7 @@
 }
 .hello p {
     color: cornflowerblue;
+    transition: color 0.5 ease-in;
 }
 .active {
     color: tomato;
