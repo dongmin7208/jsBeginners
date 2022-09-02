@@ -1,5 +1,6 @@
 // const h1 = document.querySelector("div.hello:first-child h1");
 const h1 = document.querySelector("div.hello:first-child h1");
+const ptag = document.querySelector("p");
 const colors = ["#1abc9c", "#3498db", "#9b59b6", "#f39c12", "#e74c3c"];
 
 console.log(h1)
@@ -40,6 +41,16 @@ function handleWindowMenu() {
     h1.style.color = colors[4];
 
 }
+
+function handlePtagClick() {
+    if (ptag.style.color === "blue") {
+        ptag.style.color = "tomato";
+    } else {
+        ptag.style.color = "blue";
+    }
+}
+
+ptag.addEventListener("click", handlePtagClick);
 
 
 h1.addEventListener("mouseleave", handleMouseLeave);
