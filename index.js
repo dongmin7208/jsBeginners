@@ -43,11 +43,14 @@ function handleWindowMenu() {
 }
 
 function handlePtagClick() {
-    if (ptag.style.color === "blue") {
-        ptag.style.color = "tomato";
+    const currentColor = ptag.style.color;
+    let newColor;
+    if (currentColor === "blue") {
+        newColor = "tomato";
     } else {
-        ptag.style.color = "blue";
+        newColor = "blue";
     }
+    ptag.style.color = newColor;
 }
 
 ptag.addEventListener("click", handlePtagClick);
