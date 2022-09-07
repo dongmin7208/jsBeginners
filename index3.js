@@ -1,33 +1,29 @@
+const allForm = document.querySelector("#enter");
+const guessInput = document.querySelector("#guess input");
+const youChosen = document.querySelector("#choose span:first-child");
+const machineChosen = document.querySelector("#choose span:last-child");
+const result = document.querySelector("#result");
 
-const loginInput = document.querySelector("#login-form input");
-const loginForm = document.querySelector("#login-form");
-const greeting = document.querySelector("#greeting")
+function genRandom(min, max) {
+    const ranNum = Math.floor(Math.random() * (max - min + 1) + min);
+    return ranNum;
+}
 
-const HIDDEN_CLASSNAME = "hidden"
-const USERNAME_KEY = "username"
-function onLoginSubmit(event) {
+function buttonClick(event) {
     event.preventDefault();
-    loginForm.classList.add(HIDDEN_CLASSNAME)
-    const username = loginInput.value;
-    localStorage.setItem(USERNAME_KEY, username)
-    paintGreetings(username)
-    // greeting.innerText = "Hello " + username;
-    // const value = loginInput.value;
-    // if (value === "") {
-    //     alert("お名前 write!")
-    // } else if (value.length > 15)
-    //     console.log("your name is too long~~")
-}
-function paintGreetings(username) {
-    greeting.innerText = `Hello ${username}`;
-    greeting.classList.remove(HIDDEN_CLASSNAME)
+
+    let max = document.getElementById("max").value;
+    const guessInputNumber = Number(guessInput.value);
+    const randomNumber = genRandom(0, max);
+
+    youChosen.innerText = `You chose:${guessInputNumber}`;
+    machineChosen.innerText = `, machine chose: ${randomNumber}`;
+
+    if (guessInputNumber === randomNumber) {
+        result.innerText = "You won!";
+    } else {
+        result.innerText = "You lost!";
+    }
 }
 
-const saveUsername = localStorage.getItem(USERNAME_KEY);
-
-if (saveUsername === null) {
-    loginForm.classList.remove(HIDDEN_CLASSNAME);
-    loginForm.addEventListener("submit", onLoginSubmit)
-} else {
-    paintGreetings(saveUsername)
-}
+allForm.addEventListener("submit", buttonClick);
