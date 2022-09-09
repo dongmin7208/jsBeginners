@@ -4,14 +4,46 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;600&family=Noto+Sans+KR&display=swap"
+            rel="stylesheet"
+        />
+        <title>Parkkudonmin</title>
     </head>
     <body>
-        <div class="hello">
-            <p>bye!</p>
-            <h1>Hello!</h1>
+        <h2 id="clock">00:00:00</h2>
+        <form class="hidden" id="login-form">
+            <input
+                required
+                maxlength="15"
+                type="text"
+                placeholder="お名前は？?"
+            />
+            <input type="submit" value="ログイン" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="今日のリスト?" required />
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+            <span></span>
+            <span></span>
         </div>
-        <script src="./index.js"></script>
+        <div id="weather">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <script defer src="js/greetings.js"></script>
+        <script defer src="js/clock.js"></script>
+        <script defer src="js/quotes.js"></script>
+        <script defer src="js/background.js"></script>
+        <script defer src="js/todo.js"></script>
+        <script defer src="js/weather.js"></script>
     </body>
 </html>
