@@ -1,14 +1,7 @@
-/* 1em=16px,(html,body * 1.5em =1.5em ) 
-    rem= root(html) em  , 
-*/
 .hidden {
     display: none;
 }
-/*Javascript에서 className 부여로 요소를 숨기기 위함*/
 
-* {
-    /* box-sizing: border-box; */
-}
 body {
     font-family: "Baloo Tammudu 2", "Noto Sans KR", sans-serif;
     -ms-user-select: none;
@@ -38,7 +31,6 @@ body {
     margin: 0 auto;
 }
 #login-form input:first-child {
-    /* 이름적는칸 */
     text-align: center;
     color: white;
     font-size: 21px;
@@ -54,7 +46,6 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
 }
 #login-form input:hover::-webkit-input-placeholder {
-    /*placeholder color change*/
     color: rgb(50, 50, 50);
 }
 #login-form input:first-child:focus {
@@ -120,7 +111,6 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
 }
 #todo-form input:hover::-webkit-input-placeholder {
-    /*placeholder color change*/
     color: rgba(7, 7, 7, 0.769);
 }
 #todo-form input:focus {
