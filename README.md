@@ -4,7 +4,6 @@
 
 
 - [🗼Screen](#screen)
-- [📦How to run](#how-to-run)
 - [🔧Main techniques used](#main-techniques-used)
 - [🌐API address](#api-address)
 - [🔎Reference web link](#reference-web-link)
@@ -15,17 +14,6 @@
 
 ![FRONT](./img/readme/momentum.gif)
 
-
-#### 📦How to run
-
-Development Environment Version  
-Visual Studio code -v  1.58  
-git -v 2.32.0
-
-```sh
-    mac:      command + L + O
-    windows:  ALT     + O
-```
 
 ### 🔧Main techniques used
 
