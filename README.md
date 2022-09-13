@@ -26,7 +26,7 @@
 
 ### 🌐API address
 
-# [`💻`](https://openweathermap.org/current)
+# [`💻`](https://openweathermap.org/current)    無料天気API  
 
 ## 🔎Reference web link
 
