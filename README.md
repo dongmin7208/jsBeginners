@@ -11,12 +11,7 @@
 
 ### 🗼Screen
 
-<<<<<<< HEAD
 ![FRONT](/img/readme/momentum.gif)
-
-=======
-![FRONT](/img/momentum.gif)
->>>>>>> 28bcdc7 (ADD:README.md)
 
 ### 🔧Main techniques used
 
