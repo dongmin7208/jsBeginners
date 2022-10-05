@@ -11,7 +11,7 @@
 
 ### 🗼Screen
 
-![FRONT](/img/readme/momentum.gif)
+![FRONT](./img/momentum.gif)
 
 ### 🔧Main techniques used
 
