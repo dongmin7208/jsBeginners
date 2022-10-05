@@ -12,7 +12,7 @@
 
 ### 🗼Screen
 
-![FRONT](./img/readme/momentum.gif)
+![FRONT](/img/readme/momentum.gif)
 
 
 ### 🔧Main techniques used
