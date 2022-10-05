@@ -2,31 +2,33 @@
 
 ## 🚩 Table of Contents
 
-
-- [🗼Screen](#screen)
-- [🔧Main techniques used](#main-techniques-used)
-- [🌐API address](#api-address)
-- [🔎Reference web link](#reference-web-link)
-- [🌏Web Support](#web-support)
-- [❗Realization](#realization)
+-   [🗼Screen](#screen)
+-   [🔧Main techniques used](#main-techniques-used)
+-   [🌐API address](#api-address)
+-   [🔎Reference web link](#reference-web-link)
+-   [🌏Web Support](#web-support)
+-   [❗Realization](#realization)
 
 ### 🗼Screen
 
+<<<<<<< HEAD
 ![FRONT](/img/readme/momentum.gif)
 
+=======
+![FRONT](/img/momentum.gif)
+>>>>>>> 28bcdc7 (ADD:README.md)
 
 ### 🔧Main techniques used
 
-| Name                                                                                                                    | Description                                |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [`fetch()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/weather.js)               | Use fetch to connect API  |
-| [`setInterval()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/clock.js)            | Method repeats of real-time |
-| [`event handlers`](https://github.com/dongmin7208/momentum_2021/blob/main/js/greetings.js)                          | The event type can be detected and passed to the listener.                 |
-
+| Name                                                                                       | Description                                                |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| [`fetch()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/weather.js)          | Use fetch to connect API                                   |
+| [`setInterval()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/clock.js)      | Method repeats of real-time                                |
+| [`event handlers`](https://github.com/dongmin7208/momentum_2021/blob/main/js/greetings.js) | The event type can be detected and passed to the listener. |
 
 ### 🌐API address
 
-# [`💻`](https://openweathermap.org/current)    無料天気API  
+# [`💻`](https://openweathermap.org/current) 無料天気 API
 
 ## 🔎Reference web link
 
@@ -41,9 +43,10 @@
 |                                                                               Yes                                                                                |                                                                                   11+                                                                                   |                                                                             Yes                                                                              |                                                                               Yes                                                                                |                                                                                Yes                                                                                 |
 
 ## ❗Realization
-- Javascriptは何よりも一番重要だということを学んだ。
-- Javascriptの多くの使い方に触れられてよかった。
-- 新しい技術を学んで応用することも重要ですが、Javascriptはずっと勉強し続けなければならないということを知った。
+
+-   Javascript は何よりも一番重要だということを学んだ。
+-   Javascript の多くの使い方に触れられてよかった。
+-   新しい技術を学んで応用することも重要ですが、Javascript はずっと勉強し続けなければならないということを知った。
 
 # Beginners Javascript
 
